@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Hello from module1!"),console.log("Goodbye from Module2!")})();
