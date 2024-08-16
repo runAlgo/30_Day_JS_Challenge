@@ -88,7 +88,7 @@
 
 // Task 6:- Write a recursive function to reverse a string. Log the result for a few test cases.
 // function reverseString(str) {
-//     // Base case: empty string 
+//     // Base case: empty string
 //     if(str === "") {
 //         return "";
 //     }
@@ -101,13 +101,42 @@
 // console.log(reversedString); // Output: "olleh"
 
 // Task 7:- Write a recursive function to check if a string is a palindrome. Log the result for a few test cases.
-function checkPalindromeString(i, n, str) {
-    // Base case
-    if(i >= n / 2) return true;
-    
-    if(str[i] != str[n - i - 1]) return false;
-    return checkPalindromeString(i + 1, n, str);
-}
-const str = "MADAM";
-const n = str.length;
-console.log(checkPalindromeString(0, n, str))
+// function checkPalindromeString(i, n, str) {
+//     // Base case
+//     if(i >= n / 2) return true;
+
+//     if(str[i] != str[n - i - 1]) return false;
+//     return checkPalindromeString(i + 1, n, str);
+// }
+// const str = "MADAM";
+// const n = str.length;
+// console.log(checkPalindromeString(0, n, str))
+
+// Activity 4:- Recursive Search
+// Task 8:- Write a recursive function to perform a binary search on sorted array. Log the index of the target element for few test cases.
+
+// function binarySearch(arr, target, start = 0, end = arr.length - 1) {
+//   if (start > end) return -1; // Target not found.
+
+//   const mid = Math.floor((start + end) / 2);
+
+//   if (arr[mid] === target) return mid;
+
+//   else if (arr[mid] < target) {
+//     return binarySearch(arr, target, mid + 1, end);
+//   } else {
+//     return binarySearch(arr, target, start, mid - 1);
+//   }
+
+// }
+// Test cases
+// const sortedArray = [2, 3, 4, 20, 40];
+// console.log(binarySearch(sortedArray, 20));
+
+// Task 9:- Write a recursive function to count the occurrences of a target element in an array. Log the result for a few test cases.
+
+
+
+// Activity 5:- Tree Tracersal(Optional)
+// Task 10:- Write a recursive function to perform an in-order traversal of a binary tree. Log the nodes as they are visited.
+// Task 11:- Write a recursive function to calculate the depth of a binary tree. Log the result for a few test cases.
