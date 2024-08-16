@@ -135,6 +135,16 @@
 
 // Task 9:- Write a recursive function to count the occurrences of a target element in an array. Log the result for a few test cases.
 
+// function countOccurances(arr, target) {
+//   if( arr.length === 0) {
+//     return 0;
+//   }
+//   const count = arr[0] === target ? 1 : 0;
+//   return count + countOccurances(arr.slice(1), target);
+// }
+// // Teat cases
+// const arr = [1, 2, 6, 2];
+// console.log(countOccurances(arr, 2)); 
 
 
 // Activity 5:- Tree Tracersal(Optional)
