@@ -149,4 +149,50 @@
 
 // Activity 5:- Tree Tracersal(Optional)
 // Task 10:- Write a recursive function to perform an in-order traversal of a binary tree. Log the nodes as they are visited.
+// function TreeNode(val) {
+//   this.val = val;
+//   this.left = this.right = null;
+// }
+
+// function inOrderTraversal(root) {
+//   if (root === null) {
+//     return;
+//   }
+
+//   inOrderTraversal(root.left);
+//   console.log(root.val);
+//   inOrderTraversal(root.right);
+// }
+// const root = new TreeNode(1);
+// root.left = new TreeNode(2);
+// root.right = new TreeNode(3);
+// root.left.left = new TreeNode(4);
+// root.left.right = new TreeNode(5);
+// inOrderTraversal(root); // Output: 4 2 5 1 3
+
+// function TreeNode(val) {
+//   this.val = val;
+//   this.left = this.right = null;
+// }
+
+// function inOrderTraversal(root) {
+//   if (root === null) {
+//     return;
+//   }
+
+//   inOrderTraversal(root.left);
+//   console.log(root.val);
+//   inOrderTraversal(root.right);
+// }
+
+// Example usage:
+// const root = new TreeNode(1);
+// root.left = new TreeNode(2);
+// root.right = new TreeNode(3);
+// root.left.left = new TreeNode(4);
+// root.left.right = new TreeNode(5);
+
+// inOrderTraversal(root); // Output: 4 2 5 1 3
+
+
 // Task 11:- Write a recursive function to calculate the depth of a binary tree. Log the result for a few test cases.
